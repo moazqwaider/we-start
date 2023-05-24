@@ -1,0 +1,149 @@
+*{
+    padding:0;
+    margin: 0;
+    font-family: sans-serif;
+    
+    
+}
+header{
+    display: flex;
+ 
+
+
+    padding :20px ;
+    background-color: black;
+    padding-left: 70px; 
+    padding-right: 100px;
+
+}
+ul{
+    padding-left:850px;
+}
+ul li{
+    display: inline-block;
+    list-style: none;
+  
+}
+header a{
+    color:white;
+    margin-left: 50px;
+}
+ul li a{
+    color:white;
+    text-decoration: none;
+    
+ 
+ 
+ }
+ 
+  
+
+ .as{
+    width: 80%;
+    margin: 30px auto;
+    padding-top: 50px;
+    display: grid;
+    grid-row-gap:50px;
+    grid-column:100px;
+     grid-template-rows: 80px 80px 80px 80px 80px 80px;
+     grid-template-columns:300px 300px 300px ;
+     align-content: center;
+     justify-content: center;
+     
+}
+
+
+.ass{
+
+    color: black;
+    background-color: white;
+    display: grid;
+    margin-right: 30px;
+
+    align-content: center;
+    justify-content: center;
+   
+}
+
+ .cont{
+    width: 80%;
+    margin: 30px auto;
+    display: grid;
+    grid-row-gap:2px;
+     grid-template-rows: 80px 80px;
+     grid-template-columns:300px 300px 300px ;
+     align-content: center;
+     justify-content: center;
+}
+
+.products{
+    color: black;
+    background-color: white;
+    display: grid;
+    margin-right: 30px;
+
+    align-content: center;
+    justify-content: center;
+}
+
+.books{
+    width: 80%;
+    margin: 30px auto;
+    padding-top: 150px;
+     display: grid;
+    grid-row-gap:2px;
+     grid-template-rows: 80px 80px;
+     grid-template-columns:300px 300px 300px ;
+     align-content: center;
+     justify-content: center;
+     
+}
+
+.book{
+
+    color: black;
+    background-color: white;
+    display: grid;
+    margin-right: 30px;
+
+    align-content: center;
+    justify-content: center;
+   
+}
+
+button{
+    color: white;
+    background-color: black;
+    align-items: center;
+    display: grid;
+    justify-content: center;
+    height: 30px;
+    margin-top: 20px;
+}
+button p{
+    font-size: 15px;
+  
+}
+
+
+.book img{
+    height: 300px;
+}
+
+footer{
+    padding-top: 30px;
+     background-color:aliceblue ;
+      padding-left: 100px;
+    
+       padding-right: 100px;
+     margin-top: 120px;
+     position: relative;
+}
+
+  .top {
+    position: absolute;
+    top: 22px;
+    right: 122px;
+    font-size: 18px;
+  }
+  
